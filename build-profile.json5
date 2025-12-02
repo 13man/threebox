@@ -1,0 +1,70 @@
+{
+  "app": {
+    "signingConfigs": [
+             {
+               "name": "default",
+               "type": "HarmonyOS",
+               "material": {
+                 "storeFile": "E:/HarmonyOS/keystore/taichimaster.p12",
+                 "storePassword": "0000001AAADD3E50707536F7A8CD0887B5292C08609C818DAE9862941302AFE36E1911789B7D56B2426E",
+                 "keyAlias": "taichimaster",
+                 "keyPassword": "0000001AE264A0E9FB950DBC9581E02EF27F2B5E8E655435BC73A80DE6AD084478049C8413EDB73EE836",
+                 "signAlg": "SHA256withECDSA",
+                 "profile": "E:/HarmonyOS/keystore/taichimasterRelease.p7b",
+                 "certpath": "E:/HarmonyOS/keystore/taichimaster.cer"
+               }
+             }
+     /* {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\hjz\\.ohos\\config\\default_MyApp_tools01_PRqRw_dnnfgSd0EYDLsmmfHyEx5q0zyk1GDcRk4Xmd8=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A84066D68322BB53AB7B5DE071C1BB0597CCDE5262A0B8C87CAEE64AB81D2407587F5E3CBC028",
+          "profile": "C:\\Users\\hjz\\.ohos\\config\\default_MyApp_tools01_PRqRw_dnnfgSd0EYDLsmmfHyEx5q0zyk1GDcRk4Xmd8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\hjz\\.ohos\\config\\default_MyApp_tools01_PRqRw_dnnfgSd0EYDLsmmfHyEx5q0zyk1GDcRk4Xmd8=.p12",
+          "storePassword": "0000001A6D469C651F5FC43CC78890E7AF1A9790D4A9B97A023E9C67341EF73D7D86F9E39F95238E8737"
+        }
+      }*/
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "compileSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

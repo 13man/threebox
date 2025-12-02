@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "诗匣"
+    },
+    {
+      "name": "accelerometer_reason",
+      "value": "用于摇一摇出题功能，检测手机摇动以随机生成题目"
+    }
+  ]
+}

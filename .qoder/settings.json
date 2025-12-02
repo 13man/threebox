@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "ask": [
+      "Read(!E:\\HarmonyOSNext\\MyApp_tools01/**)",
+      "Edit(!E:\\HarmonyOSNext\\MyApp_tools01/**)"
+    ],
+    "allow": [
+      "Read(E:\\HarmonyOSNext\\MyApp_tools01/**)",
+      "Edit(E:\\HarmonyOSNext\\MyApp_tools01/**)"
+    ]
+  },
+  "memoryImport": {},
+  "monitoring": {}
+}
